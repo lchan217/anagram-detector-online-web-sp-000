@@ -5,6 +5,6 @@ class Anagram
   end 
   def self.match(array)
     array.select do |element|
-      element.split("") 
+      element.split("").sort = 
     end 
 end
