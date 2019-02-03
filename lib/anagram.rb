@@ -4,5 +4,7 @@ class Anagram
     @word = word
   end 
   def self.match(array)
-    array.detect 
+    array.select do |element|
+      element.split("") 
+    end 
 end
